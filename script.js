@@ -53,12 +53,10 @@ slidezy.prototype._init = function () {
     if (this.opt.autoplayHoverPause) {
       this.container.onmouseenter = () => {
         this._stopAutoplay();
-        console.log('mouseenter');
       };
 
       this.container.onmouseleave = () => {
         this._startAutoplay();
-        console.log('mouseleave');
       };
     }
   }
