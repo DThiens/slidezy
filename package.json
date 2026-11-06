@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "minify": "terser script.js -o slidezy.min.js && csso styles.css -o slidezy.min.css"
+  },
+  "dependencies": {
+    "csso-cli": "^4.0.2",
+    "terser": "^5.51.2"
+  }
+}
